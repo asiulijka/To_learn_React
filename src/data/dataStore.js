@@ -12,6 +12,12 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  header: {
+    headerIcon: 'truck-monster',
+    goHome: 'Home',
+    goInfo: 'Info',
+    goFAQ: 'FAQ',
+  },
 };
 
 export const pageContents = {
@@ -149,3 +155,13 @@ const initialStoreData = {
 };
 
 export default initialStoreData;
+
+export const FAQData = {
+  title: '<sub>FAQ</sub> Things to do <sup>soon!</sup>',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+};
+
+export const InfoData = {
+  title: '<sub>Info</sub> Things to do <sup>soon!</sup>',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+};
