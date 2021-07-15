@@ -85,6 +85,18 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+  {
+    id: 'list-2',
+    title: '2nd Things to do <sup>soon!</sup>',
+    description: 'Less Interesting things I want to check out!',
+    image: 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2020%2F09%2F15%2FThe-Mandalorian5.jpg',
+  },
+  {
+    id: 'list-3',
+    title: '3rd Things to do <sup>soon!</sup>',
+    description: 'Non-Interesting things I want to check out!',
+    image: 'https://images.pexels.com/photos/6320590/pexels-photo-6320590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+  },
 ];
 
 const columns = [
@@ -110,6 +122,18 @@ const columns = [
     id: 'column-4',
     listId: 'list-2',
     title: 'Strange column',
+    icon: 'question',
+  },
+  {
+    id: 'column-5',
+    listId: 'list-2',
+    title: 'Another Strange column',
+    icon: 'question',
+  },
+  {
+    id: 'column-6',
+    listId: 'list-2',
+    title: 'One more Strange column',
     icon: 'question',
   },
 ];
