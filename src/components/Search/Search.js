@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 
 class Search extends React.Component {
   static propTypes = {
-    history: PropTypes.string,
+    history: PropTypes.object,
   }
 
   state = {
@@ -38,7 +38,7 @@ class Search extends React.Component {
           onChange={event => this.handleChange(event)}
         />
         <div className={styles.buttons}>
-          <Button onClick={this.handleOK}><Icon name={icon} /></Button>
+          <Button onClick={() => this.handleOK()}><Icon name={icon} /></Button>
         </div>
       </div>
     );

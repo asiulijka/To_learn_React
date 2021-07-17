@@ -16,7 +16,6 @@ class Header extends React.Component {
 
 
   render() {
-    // const {image} = this.props;
     return (
       <header className={styles.component}>
         <Container>
@@ -25,7 +24,7 @@ class Header extends React.Component {
               <Icon name={settings.header.headerIcon} />
             </Link>
 
-            <Search className={styles.input} />
+            <Search />
             
             <nav>
               <NavLink exact to='/' activeClassName='active'>{settings.header.goHome}</NavLink>
